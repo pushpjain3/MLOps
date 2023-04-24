@@ -23,5 +23,3 @@ def predict():
     output = {'prediction': int(prediction[0])}
     return jsonify(output)
 
-if __name__ == '__main__':
-    app.run()
